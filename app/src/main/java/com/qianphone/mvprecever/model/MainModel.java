@@ -21,6 +21,6 @@ public class MainModel implements MvpModel<MainModel.OnMainModelListener>{
 
 
      public interface OnMainModelListener{
-        void getMainJson(String json);
+        void getMainJson(String  json);
     }
 }
